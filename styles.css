@@ -1,27 +1,28 @@
 /* Nav bar*/
 
-.nav-list {
+.nav-list {                             /* nav container */
     background-color: #1F2937;
     margin: 0;
-    padding: .5rem 0;
+    padding: .5rem 7rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    border: solid #1F2937;
 }
 
-.nav-item {
+.nav-item {                             /* nav child */
     list-style: none;
     margin: 2rem;
 }
 
-.nav-item a {
+.nav-item a {                          /* nav a tag*/
     text-decoration: none;
     color: #E5E7EB;
     margin:1rem;
     font-size: 18px;
 }
 
-.nav-item:first-child {
+.nav-item:first-child {                 /* goggins logo */
     margin-right: auto;
     margin-left: 1rem;
     
@@ -35,8 +36,51 @@ body {
 
 /* Call to Action */
 
-.calltoaction {
-    background-color: pink;
-    border: solid;
+.calltoaction {                             /* call to action container */
+    background-color: #1F2937;
+    border: solid #1F2937;
+    margin: 0;
+    padding: .5rem 7rem 20rem 7rem;
+    display: flex;
+}
+
+.goggins {                                  /* goggins images */ 
+    margin: 0 3rem 0 5rem;
+    display: flex;
+}
+
+.unleash {                          /* h1 and p elements container */
+    margin: 0 2rem;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: #24a0ed;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: #094e83;
+    cursor: pointer;
+}
+
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+h3 {
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    line-height: 1.5;
 }
 
