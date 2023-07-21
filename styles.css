@@ -1,0 +1,42 @@
+/* Nav bar*/
+
+.nav-list {
+    background-color: #1F2937;
+    margin: 0;
+    padding: .5rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #E5E7EB;
+    margin:1rem;
+    font-size: 18px;
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 1rem;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Call to Action */
+
+.calltoaction {
+    background-color: pink;
+    border: solid;
+}
+
