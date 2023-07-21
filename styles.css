@@ -7,7 +7,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border: solid #1F2937;
+    border: solid #E5E7EB;
+    
 }
 
 .nav-item {                             /* nav child */
@@ -31,6 +32,8 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    
 }
 
 
@@ -40,18 +43,30 @@ body {
     background-color: #1F2937;
     border: solid #1F2937;
     margin: 0;
-    padding: .5rem 7rem 20rem 7rem;
+    padding: .5rem 7rem 7rem 7rem;
     display: flex;
 }
 
 .goggins {                                  /* goggins images */ 
     margin: 0 3rem 0 5rem;
     display: flex;
+    gap: 3rem;
+    border: solid pink;
+    overflow: hidden;
 }
+
+.goggins > img {
+    min-width: 50%;
+
+
+}
+
 
 .unleash {                          /* h1 and p elements container */
     margin: 0 2rem;
 }
+
+
 
 button {
     height: 50px;
@@ -83,4 +98,31 @@ p {
     color: #E5E7EB;
     line-height: 1.5;
 }
+
+/* information and images section */
+
+.info {
+    background-color: white;
+    margin: 0;
+    padding: .5rem 7rem 7rem 7rem;
+    
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: .5rem;
+    gap: 1rem;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+
 
