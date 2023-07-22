@@ -1,4 +1,4 @@
-/* Nav bar*/
+/* Nav bar */
 
 .nav-list {                             /* nav container */
     background-color: #1F2937;
@@ -7,8 +7,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border: solid #E5E7EB;
-    
+    border: solid #1F2937;    
 }
 
 .nav-item {                             /* nav child */
@@ -16,7 +15,7 @@
     margin: 2rem;
 }
 
-.nav-item a {                          /* nav a tag*/
+.nav-item a {                          /* nav a tag */
     text-decoration: none;
     color: #E5E7EB;
     margin:1rem;
@@ -26,16 +25,13 @@
 .nav-item:first-child {                 /* goggins logo */
     margin-right: auto;
     margin-left: 1rem;
-    
 }
 
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    
 }
-
 
 /* Call to Action */
 
@@ -51,28 +47,22 @@ body {
     margin: 0 3rem 0 5rem;
     display: flex;
     gap: 3rem;
-    border: solid pink;
     overflow: hidden;
 }
 
-.goggins > img {
+.goggins > img {                            /* all children in parent goggins min-width 50% */
     min-width: 50%;
-
-
 }
-
 
 .unleash {                          /* h1 and p elements container */
     margin: 0 2rem;
 }
 
-
-
-button {
+button {                                        /* button to sign up */
     height: 50px;
     width: 100px;
     color: white;
-    background-color: #24a0ed;
+    background-color: #3882F6;
     border-radius: 10px;
     border: none;
 }
@@ -82,8 +72,7 @@ button:hover {
     cursor: pointer;
 }
 
-
-h1 {
+h1 {                                           
     font-size: 48px;
     color: #F9FAF8;
     margin: 0;
@@ -101,27 +90,46 @@ p {
 
 /* information and images section */
 
-.info {
+.info {                                                 /* information container section */
     background-color: white;
     margin: 0;
     padding: .5rem 7rem 7rem 7rem;
-    
 }
 
-.images {
+.images {                                               /* images container */
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin: 0;
-    padding: .5rem;
-    gap: 1rem;
-    
+    padding: 0;
+    border: solid black;
+    overflow: hidden;
 }
 
-h2 {
+.images > img {                                         /* children of images container (the actual img's) */
+    min-width: 25%;
+    height: 450px;
+}
+
+h2 {                    
     text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
 }
 
+.descriptions {                                         /* container for paragraph tags */
+    display: flex;
+    border: solid black;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.descriptions > p {                                     /* paragraph tags in the container */
+    color: black;
+    font-size: 18px;
+    margin: 1rem;
+}
 
 
 
