@@ -170,7 +170,6 @@ h2 {
     width:1000px;
     height: auto;
     border-radius: 10px;
-    border: solid pink;
     display: flex;
     flex-direction: row;
 }
