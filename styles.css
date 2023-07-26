@@ -136,7 +136,7 @@ h2 {
 .quotation {                                            /* quotation section container */
     background-color: #E5E7EB;
     margin: 0;
-    padding: 12rem 12rem 12rem 12rem;
+    padding: 12rem;
     display: flex;
 }
 
@@ -152,4 +152,68 @@ h2 {
     font-weight: bold;
     text-align: right;
     margin-right: 5rem;
+}
+
+/* reminder to sign up section */
+
+.remindertojoin {                                           /* remindertojoin container */
+    background-color: white;
+    margin: 0;
+    padding: 12rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.signup {
+    background-color: #3882F6;
+    width:1000px;
+    height: auto;
+    border-radius: 10px;
+    border: solid pink;
+    display: flex;
+    flex-direction: row;
+}
+
+.signupwords > h1 {
+    color: white;
+    font-size: 18px;
+    padding: 3rem 3rem 0 6rem;
+    margin: 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.signupwords > p {
+    color: white;
+    font-size: 16px;
+    padding: 0 3rem 3rem 6rem;
+    margin: 0;
+}
+
+.button {
+    background-color: #3882F6;
+    margin: 0;
+    padding: 3rem 0rem 3rem 14rem;
+}
+
+.button button {
+    border: solid white;
+    height: 50px;
+    width: 150px;
+}
+
+/* copyright/footer section */
+
+.footer {                                                       /* footer container */
+    background-color: #1F2937;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    padding: 0.5rem;
+
 }
