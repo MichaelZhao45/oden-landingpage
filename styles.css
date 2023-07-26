@@ -131,5 +131,25 @@ h2 {
     margin: 1rem;
 }
 
+/* quote section */
 
+.quotation {                                            /* quotation section container */
+    background-color: #E5E7EB;
+    margin: 0;
+    padding: 12rem 12rem 12rem 12rem;
+    display: flex;
+}
 
+.quote > p {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote > h4 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 5rem;
+}
